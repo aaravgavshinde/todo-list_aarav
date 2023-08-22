@@ -1,0 +1,82 @@
+.list-item {
+    display: flex;
+    background-color: rgb(151, 151, 220);
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    max-height: 30px;
+}
+
+.bg1 {
+    background-color: rgb(29, 29, 101);
+}
+
+.list {
+    padding: 10px 5px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 1px;
+    color: black;
+}
+
+.task-button {
+    padding: 1px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0px 3px;
+    color: black;
+}
+
+i {
+    background-color: rgb(151, 151, 220);
+}
+
+.button-complete {
+    border: none;
+    background-color: rgb(151, 151, 220);
+    border-radius: 50%;
+    color: rgb(235, 83, 83);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.button-complete:hover {
+    color: red;
+}
+
+.complete {
+    text-decoration-style: dashed;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    opacity: 0.5;
+}
+
+.button-edit {
+    border: none;
+    background-color: rgb(151, 151, 220);
+    border-radius: 50%;
+    color: rgb(233, 233, 0);
+    cursor: pointer;
+    font-size: 25px;
+    padding-top: 3px;
+}
+
+.button-edit:hover {
+    color: yellow;
+}
+
+.button-delete {
+    border: none;
+    background-color: rgb(151, 151, 220);
+    border-radius: 50%;
+    color: rgb(21, 128, 115);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.button-delete:hover {
+    color: green;
+}

@@ -1,0 +1,67 @@
+.form{
+    position: absolute;
+    top: 37%;
+    left: 30.5%;
+    transform: scale(0.1);
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform 0.4s;
+    background-color: rgb(253, 159, 140);
+    z-index: 1;
+}
+
+
+.open{
+    visibility: visible;
+    top: 37%;
+    left: 30.5%;
+    transform: scale(1);
+}
+
+.mainbox{
+    text-align: center;
+}
+
+.mainbtn{
+    font-size: 18px;
+    border: 2px solid rgb(29, 29, 69);
+    background-color: rgb(29, 29, 69);;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mainbtn:hover{
+    background-color: rgb(194, 194, 255);
+    color: rgb(29, 29, 69);;
+    transition-duration: 0.3s;
+    border: 2px solid rgb(194, 194, 255);
+}
+
+.task-input{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: rgb(29, 29, 69);
+}
+
+.button-add{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(29, 29, 69);
+    margin: 5px;
+}
+
+.button-add:hover{
+    background-color: rgb(214, 214, 255);
+    color: rgb(30, 30, 80);
+    transition-duration: 0.3s;
+}
+
